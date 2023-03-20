@@ -3,7 +3,7 @@ import numpy as np
 
 
 class CNNLSTM(tf.keras.Model):
-    def __init__(self, x_shape=(32, 32, 64, 22), batchsize=32):
+    def __init__(self, x_shape=(32, 32, 64, 22), batchsize=32, datasize=(22, 32), embedding_dim=32):
         self.batchsize = batchsize
         self.x_shape = x_shape
 
@@ -43,7 +43,7 @@ class CNNLSTM(tf.keras.Model):
         x = self.dense2(x)
 
         return x
-    
+
     def model(self):
         x = tf.keras.Input(shape=self.x_shape)
         return tf.keras.Model(inputs=[x], outputs=self.call(x))
