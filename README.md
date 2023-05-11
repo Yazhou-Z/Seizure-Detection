@@ -2,7 +2,7 @@
 
 Aim: to detect seizure with a short latency and high accuracy.
 
-[Update Log][https://docs.google.com/document/d/16egeJQX8ePki6_6A8KlADYW3C6qY1Pe5rXCmNBuDYhI/edit] 
+<!-- [Update Log][https://docs.google.com/document/d/16egeJQX8ePki6_6A8KlADYW3C6qY1Pe5rXCmNBuDYhI/edit]  -->
 
 Model: Radomize + CNN-biLSTM
 
